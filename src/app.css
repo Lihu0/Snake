@@ -9,6 +9,6 @@
 
 @layer components {
     body {
-        @apply overflow-hudden
+        @apply overflow-hidden;
     }
 }    
