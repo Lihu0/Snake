@@ -399,7 +399,7 @@
 </script>
 
 <main
-  class="flex flex-col items-center justify-center h-screen relative"
+  class="flex flex-col items-center justify-center h-screen relative overflow-hidden"
 >
   <canvas bind:this={canvas}></canvas>
   {#if isGameOver}
