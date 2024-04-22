@@ -6,3 +6,9 @@
     font-family: 'Heebo';
     src: url(./lib/assets/heebo.woff2) format('woff2');
 }
+
+@layer components {
+    body {
+        @apply overflow-hudden
+    }
+}    
