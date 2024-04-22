@@ -249,10 +249,10 @@
                     return 180;
                   }
                   if (direction == "left") {
-                    return 90;
+                    return 270;
                   }
                   if (direction == "right") {
-                    return 270;
+                    return 90;
                   }
                   if (direction == undefined) {
                     return 0;
@@ -379,14 +379,12 @@
         }
 
         if (snakeXY[0].x == food.x && snakeXY[0].y == food.y) {
-          food = {
-            x:
-              Math.floor((Math.random() * canvas.width) / snakeSize) *
-              snakeSize,
-            y:
-              Math.floor((Math.random() * canvas.height) / snakeSize) *
-              snakeSize,
-          };
+          do {
+            food = {
+              x: Math.floor((Math.random() * canvas.width) / snakeSize) * snakeSize,
+              y: Math.floor((Math.random() * canvas.height) / snakeSize) * snakeSize,
+            };
+          } while (snakeXY.some((segment) => segment.x == food.x && segment.y == food.y));
           snakeXY.push({ x: snakeXY[0].x, y: snakeXY[0].y });
           score = snakeXY.length - 1;
         }

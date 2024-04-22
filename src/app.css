@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(./lib/assets/heebo.woff2) format('woff2');
+}
