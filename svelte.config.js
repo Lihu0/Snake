@@ -9,9 +9,6 @@ const config = {
     adapter: adapter({
       strict: false,
     }),
-    output: {
-      dir: "public",
-    },
   },
 };
 
