@@ -9,6 +9,6 @@
 
 {@render children()}
 
-<footer class="absolute bottom-0 md:h-14 w-full bg-slate-800 text-white text-center flex justify-center items-center text-2xl font-bold font-heebo">
+<footer class="absolute bottom-0 md:h-14 xs:h-12 w-full bg-slate-800 text-white text-center flex justify-center items-center text-2xl font-bold font-heebo">
   המשחק של ליהוא לויט
 </footer>
