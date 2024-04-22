@@ -13,7 +13,6 @@ const config = {
       dir: "public",
     },
   },
-  preprocess: vitePreprocess(),
 };
 
 export default config;
