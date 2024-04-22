@@ -24,7 +24,7 @@
   <input type="number" {name} value={deafulValue} class="bg-slate-700 border border-black mb-1 rounded-md text-white w-10"/> 
 {/snippet}
 
-<main class="flex flex-col items-center">
+<main class="flex flex-col items-center overflow-hidden">
   <h1 class="font-extrabold font-sans text-7xl">Snake</h1>
   <br />
   <form action="/mainGame">
