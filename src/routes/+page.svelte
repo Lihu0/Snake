@@ -10,7 +10,7 @@
       gameWidth.valueAsNumber = Math.floor((window.innerWidth - 100) / 15);
     }
     
-    if (gameHeight.valueAsNumber * 15 > window.innerHeight - 100) {
+    if (gameHeight.valueAsNumber * 15 > window.innerHeight - 125) {
       gameHeight.valueAsNumber = Math.floor((window.innerHeight - 125) / 15);
     }
   })
