@@ -11,7 +11,7 @@
     }
     
     if (gameHeight.valueAsNumber * 15 > window.innerHeight - 100) {
-      gameHeight.valueAsNumber = Math.floor((window.innerHeight - 100) / 15);
+      gameHeight.valueAsNumber = Math.floor((window.innerHeight - 125) / 15);
     }
   })
 </script>
